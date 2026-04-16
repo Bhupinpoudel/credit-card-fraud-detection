@@ -36,6 +36,7 @@ This project implements a machine learning-based system to detect fraudulent cre
 ---
 
 ## 📂 Project Structure
+
 credit-card-fraud-detection/
 │
 ├── app/
@@ -54,12 +55,15 @@ credit-card-fraud-detection/
 ## ▶️ How to Run the Project
 
 ### 1. Clone the repository
+
 git clone https://github.com/your-username/credit-card-fraud-detection.git
 
 cd credit-card-fraud-detection
-git clone https://github.com/your-username/credit-card-fraud-detection.git
 
-cd credit-card-fraud-detection
+
+---
+
+### 2. Install dependencies
 
 pip install -r requirements.txt
 
@@ -85,4 +89,3 @@ This project was developed as part of an MSc dissertation focusing on machine le
 
 ## 👨‍💻 Author
 Bhupin Poudel
-
