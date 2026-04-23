@@ -25,14 +25,14 @@ This project implements a machine learning-based system to detect fraudulent cre
 
 ---
 
-## 📊 Model Details
-- Algorithm: Decision Tree Classifier
-- Data Balancing: SMOTE
-- Evaluation Metrics:
-  - Accuracy: 0.96
-  - Recall: 0.88
-  - Precision: 0.03
-  - ROC-AUC: 0.92
+📊 Model Performance
+Model	Precision	Recall	F1 Score
+Without SMOTE	0.90	0.77	0.83
+SMOTE (Depth=5)	0.04	0.89	0.07
+GridSearch (Depth=10)	0.07	0.83	0.13
+Depth=15	0.16	0.81	0.26
+
+⚠️ Accuracy is not reliable due to class imbalance. Precision and recall are more meaningful metrics.
 
 ---
 
