@@ -6,12 +6,13 @@ This project implements a machine learning-based system to detect fraudulent cre
 ---
 
 ## 🚀 Features
-- Fraud detection using Machine Learning
-- Handling imbalanced dataset using SMOTE
-- Interactive Streamlit web application
-- Dashboard with performance metrics and visualizations
-- CSV upload for bulk transaction prediction
-- Downloadable prediction results
+-Fraud detection using Decision Tree classifier
+-Handling imbalanced dataset using SMOTE
+-Hyperparameter tuning using GridSearchCV
+-Performance analysis across multiple tree depths
+-Interactive Streamlit web application
+-Tableau dashboard for visual analytics
+-CSV upload for bulk prediction
 
 ---
 
